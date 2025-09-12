@@ -42,7 +42,8 @@ Usage
 Place your dataset earthquakes.csv in the project folder.
 Run the training script:
 
-python Alert.py
+open in vscode/jupyternotebook
+launch Alert.ipynb
 
 The model, scaler, and label encoder will be saved as .pkl files.
 You will also get evaluation metrics (accuracy, classification report, confusion matrix).
