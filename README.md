@@ -25,7 +25,7 @@ AI-Powered Earthquake Alert System/
 |-- templates/
 |     |____index.html   # Web Interface
 │-- earthquakes.csv # Dataset (from Kaggle)
-│-- Alert.py # Main training script
+│-- Alert.ipynb # source code
 |-- app.py   #Flask backend
 │-- earthquake_model.pkl # Saved Random Forest model
 │-- scaler.pkl # Saved StandardScaler
