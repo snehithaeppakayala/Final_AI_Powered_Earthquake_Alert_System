@@ -22,11 +22,9 @@ The project includes:
 
 ##  Project Structure
 AI-Powered Earthquake Alert System/
-|-- templates/
-|     |____index.html   # Web Interface
 │-- earthquakes.csv # Dataset (from Kaggle)
 │-- Alert.ipynb # source code
-|-- app.py   #Flask backend
+|-- app.py   #Streamlit backend
 │-- earthquake_model.pkl # Saved Random Forest model
 │-- scaler.pkl # Saved StandardScaler
 │-- label_encoder.pkl # Saved LabelEncoder
@@ -96,12 +94,12 @@ Alert Description: High alert, potential damage, take caution.
 Red Alert Override: Any earthquake with Magnitude ≥ 8.0 & Depth ≤ 30 km is automatically classified as red.
 
 Run Flask App
-python app.py
+streamlit run app.py
 Then open browser at  http://127.0.0.1:5000/
 
 Output:
 
-![alt text](<Screenshot 2025-09-09 235042.png>)
+![alt text](image.png)
 
 ⚠️ Alert Levels & Meaning
 
